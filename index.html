@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AwareSphere – Social Awareness Platform</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ─── HEADER / NAV ─────────────────────────────────────────────────── -->
+  <header id="top">
+    <nav class="navbar" id="navbar">
+      <a href="#top" class="logo">
+        <span class="logo-icon">🌐</span>
+        <span>Aware<strong>Sphere</strong></span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#energy">⚡ Energy</a></li>
+        <li><a href="#digital">💳 Digital Safety</a></li>
+        <li><a href="#mental">🧠 Mental Health</a></li>
+        <li><a href="#ewaste">♻️ E-Waste</a></li>
+        <li><a href="#environment">🌊 Environment</a></li>
+        <li><a href="#blog">📚 Blog</a></li>
+        <li><a href="#contact">📞 Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ─── HERO ─────────────────────────────────────────────────────────── -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content fade-in">
+      <span class="pill">🌍 Making Awareness Accessible</span>
+      <h1>Small&nbsp;Actions<br/><em>Create Big Impact</em></h1>
+      <p class="hero-sub">AwareSphere is a free public platform that educates communities on energy, digital safety, mental well-being, e-waste, and environmental responsibility — one actionable step at a time.</p>
+      <div class="hero-cta">
+        <a href="#energy" class="btn-primary">Explore Topics</a>
+        <a href="#blog" class="btn-outline">Read Articles</a>
+      </div>
+    </div>
+    <div class="hero-cards fade-in-delay">
+      <div class="stat-card"><span class="stat-num" data-target="2.5">0</span><span class="stat-unit">Billion</span><p>People lack basic digital safety awareness</p></div>
+      <div class="stat-card"><span class="stat-num" data-target="50">0</span><span class="stat-unit">Million</span><p>Tonnes of e-waste generated every year</p></div>
+      <div class="stat-card"><span class="stat-num" data-target="970">0</span><span class="stat-unit">Million</span><p>People live with mental health conditions</p></div>
+    </div>
+    <div class="scroll-hint">↓ Scroll to explore</div>
+  </section>
+
+  <!-- ─── SECTION NAVIGATOR ─────────────────────────────────────────────── -->
+  <section class="topics-nav" id="topics">
+    <div class="container">
+      <h2 class="section-title">What We Cover</h2>
+      <p class="section-sub">Click any topic to jump directly to that section</p>
+      <div class="topic-grid">
+        <a href="#energy"      class="topic-card t-energy">      <span>⚡</span><h3>Energy Conservation</h3><p>Save electricity, reduce bills, help the planet</p></a>
+        <a href="#digital"     class="topic-card t-digital">     <span>💳</span><h3>Digital Safety</h3><p>Protect yourself from UPI scams & online fraud</p></a>
+        <a href="#mental"      class="topic-card t-mental">      <span>🧠</span><h3>Mental Health</h3><p>Self-care routines, tips & motivational support</p></a>
+        <a href="#ewaste"      class="topic-card t-ewaste">      <span>♻️</span><h3>E-Waste Management</h3><p>Dispose electronics responsibly</p></a>
+        <a href="#environment" class="topic-card t-env">         <span>🌊</span><h3>Cleanliness & Environment</h3><p>Clean rivers, beaches & neighbourhoods</p></a>
+        <a href="#blog"        class="topic-card t-blog">        <span>📚</span><h3>Blog & Articles</h3><p>In-depth reads on all awareness topics</p></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── ENERGY CONSERVATION ───────────────────────────────────────────── -->
+  <section class="awareness-section bg-light" id="energy">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-energy">⚡ Energy Conservation</span>
+        <h2 class="section-title">Use Less, Save More</h2>
+        <p class="section-sub">Every kilowatt-hour you save reduces carbon emissions and lowers your electricity bill.</p>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-icon">💡</div>
+          <h3>Switch to LEDs</h3>
+          <p>LED bulbs use up to <strong>75% less energy</strong> than incandescent bulbs and last 25× longer. Replace all bulbs in your home today.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🌡️</div>
+          <h3>Smart Cooling</h3>
+          <p>Set your AC at 24–26 °C. Every degree below 24 °C increases energy use by about 6%. Use ceiling fans to feel cooler without the extra cost.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🔌</div>
+          <h3>Standby Power</h3>
+          <p>Devices on standby drain electricity silently. Unplug chargers, TVs, and appliances when not in use — they collectively waste up to 10% of your bill.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">☀️</div>
+          <h3>Use Natural Light</h3>
+          <p>Open curtains during the day. Rearrange workspaces near windows. Natural light improves mood and productivity while cutting electricity costs.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🧺</div>
+          <h3>Wash on Cold</h3>
+          <p>About 90% of a washing machine's energy goes to heating water. Washing in cold water is just as effective and saves significant energy.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🪟</div>
+          <h3>Insulate Your Home</h3>
+          <p>Seal gaps around doors and windows to prevent cool/warm air from escaping. Good insulation can cut heating and cooling costs by 20–30%.</p>
+        </div>
+      </div>
+
+      <!-- Interactive Checklist -->
+      <div class="checklist-box" id="energy-checklist">
+        <h3>⚡ Your Energy-Saving Checklist</h3>
+        <p class="checklist-desc">Tick each habit you already follow. Aim for a perfect score!</p>
+        <div class="progress-bar-wrap">
+          <div class="progress-bar" id="energy-progress" style="width:0%"></div>
+        </div>
+        <p class="progress-label" id="energy-label">0 / 8 habits adopted</p>
+        <ul class="checklist" id="energy-list">
+          <li><label><input type="checkbox" data-list="energy"> I use LED bulbs throughout my home</label></li>
+          <li><label><input type="checkbox" data-list="energy"> I set my AC at 24 °C or above</label></li>
+          <li><label><input type="checkbox" data-list="energy"> I unplug chargers when not in use</label></li>
+          <li><label><input type="checkbox" data-list="energy"> I switch off lights when leaving a room</label></li>
+          <li><label><input type="checkbox" data-list="energy"> I use natural light during the day</label></li>
+          <li><label><input type="checkbox" data-list="energy"> I wash clothes in cold/lukewarm water</label></li>
+          <li><label><input type="checkbox" data-list="energy"> I use a power strip with a switch</label></li>
+          <li><label><input type="checkbox" data-list="energy"> I have an inverter/solar panel or plan to get one</label></li>
+        </ul>
+        <div class="checklist-result" id="energy-result"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── DIGITAL SAFETY ────────────────────────────────────────────────── -->
+  <section class="awareness-section" id="digital">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-digital">💳 Digital Safety</span>
+        <h2 class="section-title">Stay Safe Online</h2>
+        <p class="section-sub">Online fraud is rising rapidly in India. Learn to recognise scams before they harm you.</p>
+      </div>
+
+      <!-- UPI Tips -->
+      <div class="alert-box">
+        <h3>🚨 UPI Safety Tips</h3>
+        <div class="dos-donts">
+          <div class="do-col">
+            <h4>✅ Do's</h4>
+            <ul>
+              <li>Verify the recipient's UPI ID before every transfer</li>
+              <li>Use official banking apps from verified stores</li>
+              <li>Enable transaction limits on your UPI app</li>
+              <li>Report unknown payment requests immediately</li>
+              <li>Check if the QR code is tampered before scanning</li>
+              <li>Use a strong, unique UPI PIN and change it periodically</li>
+            </ul>
+          </div>
+          <div class="dont-col">
+            <h4>❌ Don'ts</h4>
+            <ul>
+              <li>Never share your UPI PIN, OTP, or CVV with anyone</li>
+              <li>Don't click payment links sent via SMS/WhatsApp</li>
+              <li>Don't scan QR codes to "receive" money — it never works that way</li>
+              <li>Don't install screen-sharing apps at a stranger's request</li>
+              <li>Avoid using UPI on public Wi-Fi</li>
+              <li>Don't trust "KYC update" calls asking for banking details</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scam Cards -->
+      <h3 class="sub-heading">Common Online Scams to Know</h3>
+      <div class="info-grid">
+        <div class="info-card scam-card">
+          <div class="info-icon">📱</div>
+          <h3>Fake Customer Support</h3>
+          <p>Fraudsters pose as bank employees and ask for OTPs to "verify your account." No real bank employee will ever ask for your OTP.</p>
+          <span class="tag tag-red">High Risk</span>
+        </div>
+        <div class="info-card scam-card">
+          <div class="info-icon">🎁</div>
+          <h3>Lottery / Prize Scam</h3>
+          <p>"You've won ₹10 lakh! Pay ₹500 processing fee." Legitimate lotteries never ask winners to pay first.</p>
+          <span class="tag tag-red">High Risk</span>
+        </div>
+        <div class="info-card scam-card">
+          <div class="info-icon">💼</div>
+          <h3>Work-From-Home Fraud</h3>
+          <p>Promises of easy money for "liking YouTube videos." Victims pay registration fees and receive nothing in return.</p>
+          <span class="tag tag-orange">Medium Risk</span>
+        </div>
+        <div class="info-card scam-card">
+          <div class="info-icon">🏦</div>
+          <h3>KYC Update Scam</h3>
+          <p>Calls/messages claiming your account will be blocked unless you update KYC immediately via a link. Always visit your bank branch instead.</p>
+          <span class="tag tag-red">High Risk</span>
+        </div>
+        <div class="info-card scam-card">
+          <div class="info-icon">💘</div>
+          <h3>Romance / Sextortion</h3>
+          <p>Someone builds a relationship online then asks for money or threatens to share private photos. Block and report immediately.</p>
+          <span class="tag tag-red">High Risk</span>
+        </div>
+        <div class="info-card scam-card">
+          <div class="info-icon">🛒</div>
+          <h3>Fake E-Commerce Sites</h3>
+          <p>Look-alike websites mimic real stores. Always check the URL, look for HTTPS, and read reviews before buying from an unknown seller.</p>
+          <span class="tag tag-orange">Medium Risk</span>
+        </div>
+      </div>
+
+      <!-- Digital Safety Checklist -->
+      <div class="checklist-box" id="digital-checklist">
+        <h3>🔐 Are You Digitally Safe?</h3>
+        <div class="progress-bar-wrap">
+          <div class="progress-bar" id="digital-progress" style="width:0%"></div>
+        </div>
+        <p class="progress-label" id="digital-label">0 / 8 safety habits adopted</p>
+        <ul class="checklist" id="digital-list">
+          <li><label><input type="checkbox" data-list="digital"> I have a unique, strong UPI PIN</label></li>
+          <li><label><input type="checkbox" data-list="digital"> I never share OTPs with anyone</label></li>
+          <li><label><input type="checkbox" data-list="digital"> I check URLs before entering payment details</label></li>
+          <li><label><input type="checkbox" data-list="digital"> I use 2-factor authentication on email & social media</label></li>
+          <li><label><input type="checkbox" data-list="digital"> I avoid banking on public Wi-Fi</label></li>
+          <li><label><input type="checkbox" data-list="digital"> I verify unknown callers before giving any info</label></li>
+          <li><label><input type="checkbox" data-list="digital"> I keep my phone's apps and OS updated</label></li>
+          <li><label><input type="checkbox" data-list="digital"> I know the Cybercrime helpline number (1930)</label></li>
+        </ul>
+        <div class="checklist-result" id="digital-result"></div>
+        <div class="helpline-box">
+          <strong>🆘 Report Cybercrime:</strong> Helpline <a href="tel:1930">1930</a> &nbsp;|&nbsp; <a href="https://cybercrime.gov.in" target="_blank" rel="noopener">cybercrime.gov.in</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── MENTAL HEALTH ────────────────────────────────────────────────── -->
+  <section class="awareness-section bg-light" id="mental">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-mental">🧠 Mental Health</span>
+        <h2 class="section-title">Your Mind Matters</h2>
+        <p class="section-sub">Mental health is health. Breaking stigma starts with a single conversation.</p>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-icon">😴</div>
+          <h3>Prioritise Sleep</h3>
+          <p>7–9 hours of quality sleep is as important as diet and exercise. Sleep deprivation worsens anxiety, focus, and emotional regulation.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🚶</div>
+          <h3>Move Your Body</h3>
+          <p>Even a 20-minute walk daily releases endorphins that reduce stress and improve mood. You don't need a gym to stay mentally fit.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🧘</div>
+          <h3>Mindful Breathing</h3>
+          <p>The 4-7-8 technique: breathe in for 4 s, hold for 7 s, exhale for 8 s. Repeat 3× to calm anxiety within minutes.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🗣️</div>
+          <h3>Talk About It</h3>
+          <p>Sharing your feelings with a trusted friend, family member, or counsellor is a sign of strength, not weakness.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">📵</div>
+          <h3>Digital Detox</h3>
+          <p>Set screen-free hours — especially before bed. Excessive social media use is linked to increased anxiety and poor self-image.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🎨</div>
+          <h3>Creative Outlets</h3>
+          <p>Drawing, journaling, cooking, music, or gardening — creative activities reduce cortisol levels and improve emotional resilience.</p>
+        </div>
+      </div>
+
+      <!-- Motivational Carousel -->
+      <div class="quote-carousel">
+        <div class="quote-track" id="quote-track">
+          <div class="quote-slide active">"You don't have to be positive all the time. It's perfectly okay to feel sad, angry, annoyed, or anxious. Having feelings doesn't make you a negative person; it makes you human."</div>
+          <div class="quote-slide">"Recovery is not one and done. It is a lifelong journey that takes place one day, one step at a time."</div>
+          <div class="quote-slide">"Mental health is not a destination, but a process. It's about how you drive, not where you're going."</div>
+          <div class="quote-slide">"You are not alone. Asking for help is the bravest thing you can do."</div>
+          <div class="quote-slide">"Healing takes time, and asking for help is a courageous step."</div>
+        </div>
+        <div class="quote-dots" id="quote-dots"></div>
+      </div>
+
+      <!-- Take a Break Section -->
+      <div class="break-section">
+        <h3>☕ Take a Break — Right Now</h3>
+        <p>Research shows that micro-breaks of 2–5 minutes improve focus and reduce mental fatigue. Try one of these:</p>
+        <div class="break-grid">
+          <div class="break-card" id="breathe-btn">
+            <span>🫁</span>
+            <h4>Breathing Exercise</h4>
+            <p>4-7-8 guided breathing</p>
+            <button class="btn-small">Start</button>
+          </div>
+          <div class="break-card">
+            <span>🌿</span>
+            <h4>5-4-3-2-1 Grounding</h4>
+            <p>Name 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, 1 you can taste.</p>
+          </div>
+          <div class="break-card">
+            <span>💧</span>
+            <h4>Hydration Reminder</h4>
+            <p>Drink a full glass of water slowly. Dehydration worsens anxiety and fatigue by up to 30%.</p>
+          </div>
+          <div class="break-card">
+            <span>🙆</span>
+            <h4>Body Scan Stretch</h4>
+            <p>Roll your shoulders 5× back and forward. Tilt your neck side-to-side. Unclench your jaw.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Breathing Overlay -->
+      <div class="overlay" id="breathe-overlay">
+        <div class="breathe-box">
+          <button class="close-overlay" id="close-breathe">✕</button>
+          <div class="breathe-circle" id="breathe-circle">
+            <span id="breathe-text">Get Ready</span>
+          </div>
+          <p id="breathe-instruction">Press Start to begin the 4-7-8 exercise</p>
+          <button class="btn-primary" id="start-breathe">Start</button>
+        </div>
+      </div>
+
+      <div class="helpline-box" style="margin-top:2rem">
+        <strong>🆘 Mental Health Helpline India:</strong> iCall – <a href="tel:9152987821">9152987821</a> &nbsp;|&nbsp; Vandrevala Foundation – <a href="tel:18602662345">1860-2662-345</a> (24×7)
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── E-WASTE ────────────────────────────────────────────────────────── -->
+  <section class="awareness-section" id="ewaste">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-ewaste">♻️ E-Waste & Waste Management</span>
+        <h2 class="section-title">Handle Electronics Responsibly</h2>
+        <p class="section-sub">Improper disposal of electronics pollutes soil, water, and air with toxic metals.</p>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-icon">📱</div>
+          <h3>What is E-Waste?</h3>
+          <p>E-waste includes discarded electronic devices: old phones, laptops, TVs, batteries, chargers, wires, and household appliances. India is the 3rd largest e-waste generator in the world.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">☠️</div>
+          <h3>Harmful Effects</h3>
+          <p>Electronics contain lead, mercury, cadmium, and arsenic. When burned or landfilled, these toxins enter groundwater and food chains, causing cancer and neurological damage.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🏭</div>
+          <h3>Proper Disposal</h3>
+          <p>Use certified e-waste recyclers. Many brands like Dell, HP, and Apple have take-back programs. Never throw electronics in regular trash or burn them.</p>
+        </div>
+      </div>
+
+      <!-- 3R Accordion -->
+      <h3 class="sub-heading">The 3R Principle</h3>
+      <div class="accordion" id="rr-accordion">
+        <div class="accordion-item">
+          <button class="accordion-btn">♻️ Reduce — Use Less, Waste Less</button>
+          <div class="accordion-body">
+            <p>Before buying a new device, ask: Do I really need this? Extend the life of your current device with software updates and repairs. Choose quality over quantity. Avoid upgrading phones every year — manufacturing one smartphone uses 70 kg of raw materials.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-btn">🔄 Reuse — Give Devices a Second Life</button>
+          <div class="accordion-body">
+            <p>Donate working devices to schools, NGOs, or family members. Sell on platforms like OLX or Cashify. Old phones can become dashcams, security cameras, or media players. Reusing one laptop saves ~300 kg of CO₂ emissions.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-btn">🗑️ Recycle — Recover Valuable Materials</button>
+          <div class="accordion-body">
+            <p>Proper recycling recovers gold, silver, copper, and rare earth metals. Use certified e-waste collection centres. In India, check <strong>Karo Sambhav</strong> or <strong>E-Parisaraa</strong> for nearby drop-off points. Batteries must always be recycled separately.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-btn">📦 Packaging Waste Tips</button>
+          <div class="accordion-body">
+            <p>Reuse cardboard boxes. Opt for products with minimal packaging. Buy in bulk to reduce packaging frequency. Refuse plastic bags. Choose glass or metal containers over single-use plastic when possible.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── ENVIRONMENT / CLEANLINESS ────────────────────────────────────── -->
+  <section class="awareness-section bg-light" id="environment">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-env">🌊 Cleanliness & Environment</span>
+        <h2 class="section-title">Protect Our Shared Planet</h2>
+        <p class="section-sub">A clean environment is not a luxury — it is a fundamental right and a shared responsibility.</p>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-icon">🌊</div>
+          <h3>River Pollution</h3>
+          <p>Over 70% of India's surface water is polluted. Industrial effluents, plastic waste, and untreated sewage kill aquatic life and contaminate drinking water for millions.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🏖️</div>
+          <h3>Beach Pollution</h3>
+          <p>8 million tonnes of plastic enter oceans each year. Marine animals mistake plastic for food. A single beach clean-up can remove hundreds of kilograms of waste.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🌫️</div>
+          <h3>Air Quality</h3>
+          <p>14 of the world's 20 most polluted cities are in India. Vehicle emissions, crop burning, and construction dust are major contributors. Plant trees and use public transport.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🌳</div>
+          <h3>Urban Green Cover</h3>
+          <p>A single mature tree absorbs ~21 kg of CO₂ per year and cools surrounding areas by 2–8 °C. Advocate for parks and tree-lined streets in your community.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🗑️</div>
+          <h3>Segregate Waste</h3>
+          <p>Separate dry, wet, and hazardous waste at home. Wet waste can be composted. Dry waste can be recycled. Proper segregation at source is the most effective solution.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🛍️</div>
+          <h3>Say No to Single-Use Plastic</h3>
+          <p>Carry a cloth bag, reusable bottle, and metal straw. Single-use plastics take 400–1000 years to decompose and break into microplastics that enter our food and water.</p>
+        </div>
+      </div>
+
+      <div class="action-banner">
+        <h3>🌱 10 Actions You Can Take Today</h3>
+        <div class="action-grid">
+          <div class="action-item">🚰 Fix water leaks in your home</div>
+          <div class="action-item">🚌 Use public transport or carpool</div>
+          <div class="action-item">🌱 Plant a sapling this week</div>
+          <div class="action-item">🛍️ Carry a cloth bag always</div>
+          <div class="action-item">🚿 Take shorter showers</div>
+          <div class="action-item">🗑️ Pick up litter when you see it</div>
+          <div class="action-item">🥦 Eat local, seasonal produce</div>
+          <div class="action-item">📢 Educate others around you</div>
+          <div class="action-item">♻️ Compost kitchen waste</div>
+          <div class="action-item">💧 Harvest rainwater if possible</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── BLOG ──────────────────────────────────────────────────────────── -->
+  <section class="awareness-section" id="blog">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-blog">📚 Blog & Articles</span>
+        <h2 class="section-title">In-Depth Reads</h2>
+        <p class="section-sub">Practical, well-researched articles on the topics that matter most.</p>
+      </div>
+
+      <div class="blog-grid">
+
+        <!-- Article 1 -->
+        <article class="blog-card" id="article-1">
+          <div class="blog-thumb blog-thumb-1">
+            <span>⚡</span>
+            <span class="read-time">5 min read</span>
+          </div>
+          <div class="blog-body">
+            <span class="blog-tag">Energy</span>
+            <h3>5 Simple Ways to Save Electricity</h3>
+            <p class="blog-preview">Your electricity bill tells a story — one that most households can rewrite with a few smart habits...</p>
+            <button class="btn-read" data-article="art1">Read Full Article ↓</button>
+            <div class="article-full" id="art1" style="display:none">
+              <p>Your electricity bill tells a story — one that most households can rewrite with a few smart habits. Here are five proven, practical ways to start saving today:</p>
+              <h4>1. Replace All Bulbs with LEDs</h4>
+              <p>LED bulbs consume 75–80% less energy than traditional incandescent bulbs and last up to 25 times longer. While the upfront cost is slightly higher, you'll recover it within months. Switching 10 bulbs in your home could save you ₹2,000–₹3,000 per year.</p>
+              <h4>2. Optimise Air Conditioning</h4>
+              <p>Air conditioning can account for 40–60% of your electricity bill during summer. Setting your thermostat to 24 °C instead of 18 °C cuts cooling costs by roughly 30%. Use fans in conjunction with AC, and ensure your unit's filters are cleaned monthly for maximum efficiency.</p>
+              <h4>3. Eliminate Phantom Load</h4>
+              <p>Phantom load (also called standby power) refers to electricity consumed by devices even when they're "off." TVs, microwaves, phone chargers, and set-top boxes are major culprits. Plugging them into a switched power strip and turning it off when leaving the room is one of the easiest energy-saving habits.</p>
+              <h4>4. Upgrade to Energy-Efficient Appliances</h4>
+              <p>When replacing appliances, choose 5-star BEE-rated products. A 5-star rated refrigerator uses 30% less electricity than a 1-star model. The savings compound over years of use and often pay for the premium price difference.</p>
+              <h4>5. Harness Natural Light and Ventilation</h4>
+              <p>Redesign your daily routine around natural light. Open blinds in the morning, work near windows, and use light-coloured walls that reflect daylight deeper into rooms. Good ventilation can also delay your need for AC by several weeks during transitional seasons.</p>
+              <p><strong>Bottom line:</strong> You don't need solar panels to make a difference. These five habits, practised consistently, can reduce your household's electricity consumption by 20–35% — cutting bills and carbon emissions simultaneously.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 2 -->
+        <article class="blog-card" id="article-2">
+          <div class="blog-thumb blog-thumb-2">
+            <span>💳</span>
+            <span class="read-time">7 min read</span>
+          </div>
+          <div class="blog-body">
+            <span class="blog-tag">Digital Safety</span>
+            <h3>How to Stay Safe in Digital Payments</h3>
+            <p class="blog-preview">UPI has transformed how India transacts — but it has also opened new avenues for fraud. Here's what you need to know...</p>
+            <button class="btn-read" data-article="art2">Read Full Article ↓</button>
+            <div class="article-full" id="art2" style="display:none">
+              <p>UPI has transformed how India transacts — processing over 10 billion transactions per month. But this convenience comes with risk. Cybercriminals are increasingly sophisticated, and awareness is your best defence.</p>
+              <h4>Understand the Golden Rule: Receiving Money Requires No Action</h4>
+              <p>The most critical fact about UPI: you never need to enter your PIN or approve a request to receive money. If someone asks you to "approve a payment request" or "enter your PIN to accept a refund," it is 100% a scam. Hang up immediately.</p>
+              <h4>Verify Before You Transfer</h4>
+              <p>Always double-check the recipient's name shown by your UPI app before confirming a transaction. If the name doesn't match who you expect, cancel the transfer. Fraudsters create UPI IDs with very similar names to trusted businesses.</p>
+              <h4>Beware of QR Code Fraud</h4>
+              <p>Fraudsters swap legitimate QR codes on shops and restaurants with their own. Always check the name displayed when you scan a QR code. If you're paying a petrol pump, restaurant, or shop, verify the name matches the business.</p>
+              <h4>Use Trusted Apps Only</h4>
+              <p>Download UPI apps only from the Google Play Store or Apple App Store. Check the number of installs and reviews. Fake apps that mimic PhonePe, GPay, or BHIM are distributed via WhatsApp links and malicious websites.</p>
+              <h4>What to Do If You're Scammed</h4>
+              <p>Act within minutes. Call your bank immediately. File a complaint at cybercrime.gov.in or call 1930 (National Cyber Crime Helpline). The faster you report, the better the chances of fund recovery. Keep all transaction IDs and screenshots as evidence.</p>
+              <p><strong>Remember:</strong> Legitimate banks, government bodies, and companies will never ask for your OTP, PIN, or password through a phone call or message.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 3 -->
+        <article class="blog-card" id="article-3">
+          <div class="blog-thumb blog-thumb-3">
+            <span>🧠</span>
+            <span class="read-time">6 min read</span>
+          </div>
+          <div class="blog-body">
+            <span class="blog-tag">Mental Health</span>
+            <h3>Importance of Mental Health Awareness</h3>
+            <p class="blog-preview">In a country where "mental illness" is still whispered, understanding why awareness matters is the first step to change...</p>
+            <button class="btn-read" data-article="art3">Read Full Article ↓</button>
+            <div class="article-full" id="art3" style="display:none">
+              <p>In India, mental health remains one of the most stigmatised and under-discussed topics. An estimated 197 million people — nearly 15% of the population — experience mental health conditions, yet fewer than 30% ever receive treatment. The gap between need and care is staggering, and much of it is bridged (or widened) by awareness.</p>
+              <h4>Why Stigma is the Biggest Barrier</h4>
+              <p>People avoid seeking help not because services are unavailable, but because of shame — fear of being labelled "crazy," losing social standing, or being seen as weak. Awareness campaigns normalise mental health conversations and reduce this stigma, making it safer for people to ask for help.</p>
+              <h4>Mental Health Affects Everyone</h4>
+              <p>Mental health is not just about people with diagnosed disorders. Stress, burnout, grief, loneliness, and anxiety are universal human experiences. When we build awareness, we build language — the vocabulary to describe our internal states and communicate needs to those around us.</p>
+              <h4>The Economic Cost of Ignoring Mental Health</h4>
+              <p>The World Health Organization estimates that depression and anxiety cost the global economy $1 trillion per year in lost productivity. In India, the cost of untreated mental illness — in lost workdays, medical emergencies, and family burden — is enormous yet largely invisible in public policy.</p>
+              <h4>What Awareness Looks Like in Practice</h4>
+              <p>Awareness means including mental health in school curricula. It means companies offering employee assistance programmes. It means doctors screening for depression alongside diabetes. It means conversations at the dinner table, not just in hospitals. Every open conversation dismantles stigma one brick at a time.</p>
+              <h4>How You Can Help</h4>
+              <p>You don't need a psychology degree to support someone struggling. Listen without judgment. Avoid phrases like "just be positive" or "others have it worse." Suggest professional help gently. Share resources. Check in on people who seem withdrawn. Your presence and empathy can be life-changing — sometimes literally.</p>
+              <p><strong>If you or someone you know is struggling:</strong> Reach out to iCall (9152987821) or Vandrevala Foundation (1860-2662-345). You are not alone, and help is available.</p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ───────────────────────────────────────────────────────── -->
+  <section class="awareness-section bg-light" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-contact">📞 Contact Us</span>
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="section-sub">Have suggestions, want to contribute an article, or found something incorrect? We'd love to hear from you.</p>
+      </div>
+      <div class="contact-wrap">
+        <div class="contact-info">
+          <h3>Why Contact Us?</h3>
+          <ul>
+            <li>💡 Suggest a new awareness topic</li>
+            <li>✍️ Submit a guest article</li>
+            <li>🐛 Report outdated or incorrect information</li>
+            <li>🤝 Propose a collaboration or partnership</li>
+            <li>📢 Share your awareness story</li>
+          </ul>
+          <div class="social-links">
+            <span>Follow & Share Awareness:</span>
+            <div class="socials">
+              <a href="#" class="social-btn">🐦 Twitter</a>
+              <a href="#" class="social-btn">📘 Facebook</a>
+              <a href="#" class="social-btn">📸 Instagram</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/xgorkzez" method="POST" novalidate>
+          <div class="form-group">
+            <label for="name">Full Name <span class="required">*</span></label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+            <span class="field-error" id="name-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address <span class="required">*</span></label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            <span class="field-error" id="email-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="">Select a topic (optional)</option>
+              <option>Suggest a new topic</option>
+              <option>Submit an article</option>
+              <option>Report incorrect information</option>
+              <option>Collaboration / Partnership</option>
+              <option>General Feedback</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message <span class="required">*</span></label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            <span class="field-error" id="message-error"></span>
+          </div>
+          <button type="submit" class="btn-primary btn-full">Send Message 📨</button>
+          <div class="form-success" id="form-success" style="display:none">
+            ✅ Thank you! Your message has been received. We'll get back to you within 48 hours.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ───────────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-icon">🌐</span>
+          <strong>AwareSphere</strong>
+          <p>A free, non-commercial platform dedicated to spreading social and environmental awareness in India and beyond.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Topics</h4>
+          <ul>
+            <li><a href="#energy">Energy Conservation</a></li>
+            <li><a href="#digital">Digital Safety</a></li>
+            <li><a href="#mental">Mental Health</a></li>
+            <li><a href="#ewaste">E-Waste</a></li>
+            <li><a href="#environment">Environment</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Helplines</h4>
+          <ul>
+            <li>🆘 Cybercrime: <a href="tel:1930">1930</a></li>
+            <li>🧠 Mental Health: <a href="tel:9152987821">iCall</a></li>
+            <li>🌿 Pollution Board: <a href="https://cpcb.nic.in" target="_blank" rel="noopener">cpcb.nic.in</a></li>
+            <li>♻️ E-Waste: <a href="https://karosambhav.com" target="_blank" rel="noopener">karosambhav.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 AwareSphere. Built for public good. No ads. No data collection. Free forever.</p>
+        <a href="#top" class="back-top">↑ Back to Top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
